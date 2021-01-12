@@ -28,10 +28,14 @@ Natural Language Processing
 2. Fetch all words from dictionary matching the literal text
 3. Create a multiplied set for all versions of the words
 4. For each set:
-  1. Attempt to parse the text into the grammar
-  2. If the parse fails due to mismatch on part of speech, discard the parse.
-  3. If all parses fail, throw an error. Either an error occurred or the sentence was not a valid English sentence
-  4. Return all successful parses
+
+  Attempt to parse the text into the grammar
+  
+  If the parse fails due to mismatch on part of speech, discard the parse.
+  
+  If all parses fail, throw an error. Either an error occurred or the sentence was not a valid English sentence
+  
+  Return all successful parses
 
 ### Markov association design
 Markov association will consist of multiple "tiers", which will be simplified by summed Bayesian probability.
